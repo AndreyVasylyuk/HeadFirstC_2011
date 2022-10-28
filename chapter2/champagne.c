@@ -6,9 +6,10 @@ int main()
     int order;
     while(stock > 0) {
         printf("%i glasses left\n", stock);
+        printf("How many glasses of champagne do you want?\n");
         scanf("%i", &order);
         stock -= order;
-        printf("You ordered %i glasses\n", order);
+        printf("You ordered %i glasses\n\n", order);
     }
     puts("We're out of stock, baby!");
     return 0;

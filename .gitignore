@@ -32,6 +32,8 @@
 *.out
 *.app
 
+/*/.exe
+
 # C/C++ binary extension file
 *.bin
 
@@ -44,6 +46,8 @@
 *.ko
 *.obj
 *.elf
+
+/*/.o
 
 # Linker output
 *.ilk

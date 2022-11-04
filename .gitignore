@@ -92,8 +92,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
-# Raspberry Pi Pico Object file
-*.uf2
-# Raspberry Pi Pico disassembler file
-*.dis
